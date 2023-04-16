@@ -14,12 +14,6 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.24'
 }
 
-task hello {
-    doLast {
-        println 'Hello Gradle'
-    }
-}
-
 jar {
     manifest {
         attributes 'Main-Class': 'org.example.Main'
